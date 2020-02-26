@@ -44,6 +44,9 @@ persist.hwc.mdpcomp.enable=true
 ro.qualcomm.cabl=2
 vendor.display.enable_default_color_mode=1
 
+# fastbootd
+ro.fastbootd.available=true
+
 # Fingerprint
 persist.qfp=false
 
