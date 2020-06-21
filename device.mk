@@ -23,6 +23,9 @@ DEVICE_PACKAGE_OVERLAYS += \
        $(LOCAL_PATH)/overlay-pa \
        $(LOCAL_PATH)/configs/overlays/overlay-system
 
+PRODUCT_PACKAGES += \
+    AOSPAMidoFrameworks
+
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
