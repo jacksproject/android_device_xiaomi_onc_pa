@@ -400,7 +400,6 @@ PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service-lazy \
     libcld80211 \
     hostapd \
-    libqmiservices_shim \
     libwifi-hal-qcom \
     wpa_supplicant \
     wpa_supplicant.conf
