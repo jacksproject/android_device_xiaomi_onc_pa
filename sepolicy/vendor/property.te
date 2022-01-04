@@ -2,8 +2,7 @@
 type vendor_camera_prop, property_type;
 
 # fingerprint
-vendor_public_prop(vendor_fp_prop)
+vendor_public_prop(vendor_fp_prop);
 
 # Dirac
-type dirac_prop, property_type;
-
+vendor_restricted_prop(vendor_dirac_prop);
