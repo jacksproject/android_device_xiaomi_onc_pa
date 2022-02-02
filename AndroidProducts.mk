@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cipher_mido.mk
+    $(LOCAL_DIR)/aospa_mido.mk
 
 COMMON_LUNCH_CHOICES := \
-    cipher_mido-user \
-    cipher_mido-userdebug \
-    cipher_mido-eng
+    aospa_mido-user \
+    aospa_mido-userdebug \
+    aospa_mido-eng

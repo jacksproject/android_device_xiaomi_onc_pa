@@ -21,21 +21,21 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from mido device
 $(call inherit-product, device/xiaomi/mido/device.mk)
 
-# Inherit some common Cipher stuff.
-$(call inherit-product, vendor/cipher/config/common_full_phone.mk)
+# Inherit some common AOSPA stuff.
+$(call inherit-product, vendor/aospa/target/product/aospa-target.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := mido
-PRODUCT_NAME := cipher_mido
+PRODUCT_NAME := aospa_mido
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 4
 PRODUCT_MANUFACTURER := Xiaomi
 TARGET_VENDOR := Xiaomi
 BOARD_VENDOR := Xiaomi
 
-# Cipher Flags
+# AOSPA Flags
 TARGET_BOOT_ANIMATION_RES := 1080
-CIPHER_GAPPS := true
+TARGET_BOARD_PLATFORM := MSM8953
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
