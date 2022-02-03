@@ -186,10 +186,6 @@ PRODUCT_PACKAGES += \
     libvulkan \
     vendor.display.config@1.0.vendor
 
-# Device-specific settings
-PRODUCT_PACKAGES += \
-    XiaomiParts
-
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-impl:64 \
@@ -354,7 +350,6 @@ PRODUCT_PACKAGES += \
     init.qcom.usb.rc \
     init.recovery.qcom.rc \
     init.recovery.qcom.usb.rc \
-    init.parts.rc \
     init.target.rc \
     ueventd.qcom.rc \
     init.insmod.sh
