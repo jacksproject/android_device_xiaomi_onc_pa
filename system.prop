@@ -86,6 +86,9 @@ vendor.video.disable.ubwc=1
 persist.sys.fuse.transcode_user_control=true
 persist.sys.fuse.transcode_enabled=false
 
+# Mwqem
+persist.vendor.mwqem.enable=1
+
 # Qualcomm
 ro.vendor.qti.va_aosp.support=1
 

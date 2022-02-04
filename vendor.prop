@@ -86,7 +86,6 @@ bluetooth.profile.bas.client.enabled?=true
 #bluetooth.profile.vcp.controller.enabled=true
 
 # Cne
-persist.vendor.mwqem.enable=1
 persist.vendor.sys.cnd.iwlan=1
 
 # Display

@@ -6,3 +6,9 @@ vendor_public_prop(vendor_fp_prop);
 
 # Dirac
 vendor_restricted_prop(vendor_dirac_prop);
+
+# mwqem property
+vendor_restricted_prop(vendor_mwqem_prop);
+
+# slm property
+vendor_restricted_prop(vendor_slm_prop);

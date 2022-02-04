@@ -3,5 +3,4 @@ vendor_internal_prop(vendor_wifi_prop)
 set_prop(wcnss_service, vendor_wifi_prop);
 get_prop(wcnss_service, vendor_wifi_prop);
 allow wcnss_service property_socket:sock_file write;
-typeattribute wcnss_service data_between_core_and_vendor_violators;
 allow wcnss_service init:unix_stream_socket connectto;
