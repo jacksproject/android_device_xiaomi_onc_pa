@@ -175,6 +175,7 @@ PRODUCT_PACKAGES += \
     libtinyxml \
     libvulkan \
     libsdmutils \
+    libsdmutils.vendor \
     libqdutils \
     vendor.display.config@1.0.vendor
 
