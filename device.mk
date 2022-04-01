@@ -377,15 +377,7 @@ PRODUCT_PACKAGES += \
     extphonelib_product.xml \
     librmnetctl \
     libcnefeatureconfig \
-    libxml2 \
-    qti-telephony-hidl-wrapper \
-    qti_telephony_hidl_wrapper.xml \
-    qti-telephony-utils \
-    qti_telephony_utils.xml \
-    telephony-ext
-
-PRODUCT_BOOT_JARS += \
-    telephony-ext
+    libxml2
 
 # SoC
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
