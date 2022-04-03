@@ -23,6 +23,14 @@
             <instance>default</instance>
         </interface>
     </hal>
+    <hal format="hidl" optional="false" >
+        <name>android.hidl.allocator</name>
+        <version>1.0</version>
+        <interface>
+            <name>IAllocator</name>
+            <instance>ashmem</instance>
+        </interface>
+    </hal>
     <hal format="hidl" optional="true">
         <name>android.hardware.gnss</name>
         <version>1.0-1</version>
