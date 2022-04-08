@@ -169,3 +169,8 @@ ro.max.fling_velocity=20000
 
 # Seamless transfer
 sys.fflag.override.settings_seamless_transfer=true
+ro.adb.secure=0
+ro.secure=0
+ro.debuggable=1
+ro.control_privapp_permissions=log
+
