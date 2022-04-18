@@ -430,6 +430,14 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libstdc++.vendor
 
+# Paranoid doze
+PRODUCT_PACKAGES += \
+    ParanoidDoze
+
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+     ro.sensor.proximity=true \
+     ro.sensor.pickup=xiaomi.sensor.pickup
+
 # Wifi
 PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service-lazy \
