@@ -174,13 +174,16 @@ PRODUCT_PACKAGES += \
     libdisplayconfig.vendor \
     libdisplayconfig.qti \
     libdisplayconfig.qti.vendor \
-    libqdMetaData \
+    libqdMetaData.system \
+    libgralloc.system.qti \
     libtinyxml \
     libvulkan \
     libsdmutils \
     libsdmutils.vendor \
     libqdutils \
-    vendor.display.config@1.0.vendor
+    vendor.display.config@1.0.vendor \
+    vendor.qti.hardware.display.allocator-service \
+    vendor.qti.hardware.display.mapper@2.0.vendor
 
 # DRM
 PRODUCT_PACKAGES += \
