@@ -15,7 +15,23 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Ambient Display -->
+    <string name="ambient_enable">Usar pantalla ambiental</string>
+
+    <!-- Audio Amplification -->
+    <string name="audio_title">Amplificación de audio</string>
+    <string name="audio_summary">Configuración de control de sonido</string>
+    <string name="headphone_gain">Ganancia de auriculares</string>
+    <string name="microphone_gain">Ganancia de micrófono</string>
+    <string name="speaker_gain">Ganancia del altavoz</string>
+
+    <!-- Custom seekbar-->
+    <string name="custom_seekbar_value">Valor: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">Predeterminado</string>
+    <string name="custom_seekbar_default_value_to_set">Valor predeterminado: <xliff:g id="v">%s</xliff:g>\nPresione prolongadamente para establecer</string>
+    <string name="custom_seekbar_default_value_is_set">Se establece el valor predeterminado</string>
+
     <!-- Dirac settings -->
     <string name="dirac_title">Mi Sound Enhancer</string>
     <string name="dirac_summary">Optimizar la calidad del audio</string>
@@ -56,4 +72,20 @@
     <string name="dirac_preset_country">Country</string>
     <string name="dirac_preset_dance">Dance</string>
     <string name="dirac_preset_metal">Metal</string>
+    <string name="dirac_preset_bass_booster">Refuerzo de graves</string>
+    <string name="dirac_preset_live">En directo</string>
+    <string name="dirac_preset_balanced">Equilibrado</string>
+    <string name="dirac_preset_bass_reduction">Reducción de graves</string>
+    <string name="dirac_preset_treble_reduction">Reductor de agudos</string>
+    <string name="dirac_preset_soft_bass">Graves suaves</string>
+    <string name="dirac_preset_soft_treble">Agudos suaves</string>
+
+    <!-- QS Tile -->
+    <string name="dirac_qs_tile_title">Sonido Dirac</string>
+
+    <!-- Torch -->
+    <string name="torch_title">Configuración de la antorcha</string>
+    <string name="torch_summary">Control de linterna blanca/amarilla</string>
+    <string name="yellow_torch_brightness_title">Brillo de la antorcha amarilla</string>
+    <string name="white_torch_brightness_title">Brillo de antorcha blanca</string>
 </resources>

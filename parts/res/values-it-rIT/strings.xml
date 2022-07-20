@@ -16,17 +16,22 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Ambient Display -->
+    <string name="ambient_enable">Usa la visualizzazione ambientale</string>
+
     <!-- Audio amplification -->
     <string name="audio_title">Amplificazione Audio</string>
     <string name="audio_summary">Impostazioni audio avanzate</string>
     <string name="headphone_gain">Volume delle cuffie</string>
     <string name="microphone_gain">Volume del microfono</string>
     <string name="speaker_gain">Volume dell\'altoparlante</string>
+
     <!-- Custom seekbar -->
     <string name="custom_seekbar_value">Valore: <xliff:g id="v">%s</xliff:g></string>
     <string name="custom_seekbar_default_value">Default</string>
     <string name="custom_seekbar_default_value_to_set">Valore di default: <xliff:g id="v">%s</xliff:g>\nPremere a lungo per impostare</string>
     <string name="custom_seekbar_default_value_is_set">Il valore predefinito è impostato</string>
+
     <!-- Dirac settings -->
     <string name="dirac_title">Ottimizzazione Mi Sound</string>
     <string name="dirac_summary">Ottimizza la qualità audio</string>
@@ -67,6 +72,17 @@
     <string name="dirac_preset_country">Country</string>
     <string name="dirac_preset_dance">Dance</string>
     <string name="dirac_preset_metal">Metal</string>
+    <string name="dirac_preset_bass_booster">Amplificatore dei bassi</string>
+    <string name="dirac_preset_live">Live</string>
+    <string name="dirac_preset_balanced">Bilanciato</string>
+    <string name="dirac_preset_bass_reduction">Riduzione dei bassi</string>
+    <string name="dirac_preset_treble_reduction">Riduzione degli alti</string>
+    <string name="dirac_preset_soft_bass">Bassi morbidi</string>
+    <string name="dirac_preset_soft_treble">Alti tenui</string>
+
+    <!-- QS Tile -->
+    <string name="dirac_qs_tile_title">Suono Dirac</string>
+
     <!-- Torch -->
     <string name="torch_title">Impostazioni della torcia</string>
     <string name="torch_summary">Controllo luminosità giallo/bianco della torcia</string>

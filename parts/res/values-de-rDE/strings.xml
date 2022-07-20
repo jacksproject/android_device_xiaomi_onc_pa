@@ -15,7 +15,23 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Ambient Display -->
+    <string name="ambient_enable">Umgebungsanzeige verwenden</string>
+
+    <!-- Audio Amplifcation -->
+    <string name="audio_title">Audioverstärkung</string>
+    <string name="audio_summary">Soundsteuerungseinstellungen</string>
+    <string name="headphone_gain">Kopfhörerverstärkung</string>
+    <string name="microphone_gain">Mikrofonverstärkung</string>
+    <string name="speaker_gain">Lautsprecherverstärkung</string>
+
+    <!-- Custom seekbar -->
+    <string name="custom_seekbar_value">Wert: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">Standard</string>
+    <string name="custom_seekbar_default_value_to_set">Standardwert: <xliff:g id="v">%s</xliff:g>\nZum Einstellen lange drücken</string>
+    <string name="custom_seekbar_default_value_is_set">Standardwert ist gesetzt</string>
+
     <!-- Dirac settings -->
     <string name="dirac_title">Mi Klangverbesserung</string>
     <string name="dirac_summary">Audioqualität optimieren</string>
@@ -56,4 +72,13 @@
     <string name="dirac_preset_country">Country</string>
     <string name="dirac_preset_dance">Dance</string>
     <string name="dirac_preset_metal">Metal</string>
+
+    <!-- QS Tile -->
+    <string name="dirac_qs_tile_title">Dirac-Sound</string>
+
+    <!-- Torch -->
+    <string name="torch_title">Fackel-Einstellungen</string>
+    <string name="torch_summary">Taschenlampe weiß/gelb Steuerung</string>
+    <string name="yellow_torch_brightness_title">Helligkeit der gelben Fackel</string>
+    <string name="white_torch_brightness_title">Helligkeit der weißen Fackel</string>
 </resources>

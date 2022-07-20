@@ -16,11 +16,22 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Ambient Display -->
+    <string name="ambient_enable">Використовувати зовнішній дисплей</string>
+
+    <!--Audio Amplification -->
+    <string name="audio_title">Посилення звуку</string>
+    <string name="audio_summary">Налаштування керування звуком</string>
+    <string name="headphone_gain">Посилення навушників</string>
+    <string name="microphone_gain">Посилення мікрофона</string>
+    <string name="speaker_gain">Посилення динаміка</string>
+
     <!-- Custom seekbar -->
     <string name="custom_seekbar_value">Значення: <xliff:g id="v">%s</xliff:g></string>
     <string name="custom_seekbar_default_value">за замовчуванням</string>
     <string name="custom_seekbar_default_value_to_set">Значення за замовчуванням: <xliff:g id="v">%s</xliff:g>\nДовгий тап для встановлення</string>
     <string name="custom_seekbar_default_value_is_set">Значення за замовчуванням встановлено</string>
+
     <!-- Dirac settings -->
     <string name="dirac_title">Покращення звуку \"Мі Sound\"</string>
     <string name="dirac_summary">Поліпшити якість звуку</string>
@@ -61,8 +72,17 @@
     <string name="dirac_preset_country">Кантрі</string>
     <string name="dirac_preset_dance">Танцювальна</string>
     <string name="dirac_preset_metal">Метал</string>
+    <string name="dirac_preset_bass_booster">Підсилення басів</string>
+    <string name="dirac_preset_live">Наживо</string>
+    <string name="dirac_preset_balanced">Збалансована</string>
+    <string name="dirac_preset_bass_reduction">Зниження басу</string>
+    <string name="dirac_preset_treble_reduction">Знизити високі частоти</string>
+    <string name="dirac_preset_soft_bass">М\'який бас</string>
+    <string name="dirac_preset_soft_treble">М\'які частоти</string>
+
     <!-- QS tile title -->
     <string name="dirac_qs_tile_title">Dirac звук</string>
+
     <!-- Torch -->
     <string name="torch_title">Ліхтарик</string>
     <string name="torch_summary">Яскравість жовтого/білого світлодіода</string>
