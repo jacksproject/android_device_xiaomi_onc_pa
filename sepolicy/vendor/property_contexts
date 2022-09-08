@@ -8,7 +8,8 @@ persist.net.doxlat              u:object_r:vendor_xlat_prop:s0
 persist.vendor.camera.dbglog    u:object_r:camera_prop:s0
 persist.camera. 		u:object_r:camera_prop:s0
 cameradaemon.SaveMemAtBoot u:object_r:camera_prop:s0
-
+camera.cpp.dumpreprocesspayload u:object_r:camera_prop:s0
+ro.camera.req.fmq.size u:object_r:camera_prop:s0
 
 # Wifi
 wifi.active.interface           u:object_r:vendor_wifi_prop:s0
