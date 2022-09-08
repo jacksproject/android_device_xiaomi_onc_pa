@@ -10,6 +10,8 @@ persist.camera. 		u:object_r:camera_prop:s0
 cameradaemon.SaveMemAtBoot u:object_r:camera_prop:s0
 camera.cpp.dumpreprocesspayload u:object_r:camera_prop:s0
 ro.camera.req.fmq.size u:object_r:camera_prop:s0
+persist.camera.module.info u:object_r:camera_prop:s0
+persist.vendor.camera.mi.module.info u:object_r:camera_prop:s0
 
 # Wifi
 wifi.active.interface           u:object_r:vendor_wifi_prop:s0
@@ -25,3 +27,4 @@ ro.boot.fpsensor                u:object_r:vendor_fp_prop:s0
 sys.fp.goodix                   u:object_r:vendor_fp_prop:s0
 sys.fp.vendor			u:object_r:vendor_fp_prop:s0
 sys.fp.onstart 			u:object_r:vendor_fp_prop:s0
+
