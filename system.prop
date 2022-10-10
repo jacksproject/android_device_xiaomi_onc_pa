@@ -80,6 +80,10 @@ vendor.vidc.enc.disable_bframes=1
 vendor.vidc.enc.disable.pq=true
 vendor.video.disable.ubwc=1
 
+# Disable media transcoding
+persist.sys.fuse.transcode_user_control=true
+persist.sys.fuse.transcode_enabled=false
+
 # Qualcomm
 ro.vendor.qti.va_aosp.support=1
 
