@@ -6,3 +6,6 @@ allow qti_init_shell proc_page_cluster:file { open write };
 
 # Postboot
 allow qti_init_shell sysfs:file { write setattr };
+
+# Allow watermark scale factor to write
+allow qti_init_shell proc_watermark_scale_factor:file write;
