@@ -142,9 +142,6 @@ persist.device.config.runtime_native.uasp_pool_enabled=true
 
 # USB Debuggig
 persist.sys.usb.config=mtp,adb
-ro.adb.secure=0
-ro.debuggable=1
-ro.control_privapp_permissions=log
 
 # Zygote
 zygote.critical_window.minute=10
