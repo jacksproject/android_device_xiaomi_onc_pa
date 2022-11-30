@@ -3,7 +3,6 @@
 #
 
 # Audio
-ro.config.media_vol_steps=25
 ro.config.vc_call_vol_steps=6
 
 # Blurs
@@ -142,7 +141,6 @@ persist.device.config.runtime_native.uasp_pool_enabled=true
 # USB Debuggig
 persist.sys.usb.config=mtp,adb
 ro.adb.secure=0
-ro.secure=0
 ro.debuggable=1
 ro.control_privapp_permissions=log
 
