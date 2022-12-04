@@ -417,13 +417,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service.basic
 
-# Vibrator
-PRODUCT_PACKAGES += \
-    vendor.qti.hardware.vibrator.service
-
-PRODUCT_COPY_FILES += \
-    vendor/qcom/opensource/vibrator/excluded-input-devices.xml:$(TARGET_COPY_OUT_VENDOR)/etc/excluded-input-devices.xml
-    
 # VNDK
 PRODUCT_PACKAGES += \
     libstdc++.vendor
@@ -457,4 +450,5 @@ PRODUCT_COPY_FILES += \
 
 # device/qcom/common modules
 TARGET_COMMON_QTI_COMPONENTS := \
-    usb
+    usb \
+    vibrator
