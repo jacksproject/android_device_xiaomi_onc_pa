@@ -209,9 +209,7 @@ PRODUCT_PACKAGES += \
 
 # GPS
 PRODUCT_PACKAGES += \
-    libcurl \
-    libavservices_minijail \
-    libavservices_minijail.vendor
+    libcurl
 
 # Healthd
 PRODUCT_PACKAGES += \
@@ -283,7 +281,6 @@ PRODUCT_COPY_FILES += \
     frameworks/av/media/libstagefright/data/media_codecs_google_c2_video.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_c2_video.xml
 
 PRODUCT_PACKAGES += \
-    libavservices_minijail.vendor \
     libnbaio
 
 # NET
@@ -437,6 +434,7 @@ PRODUCT_COPY_FILES += \
 
 # device/qcom/common modules
 TARGET_COMMON_QTI_COMPONENTS := \
+    av \
     gps \
     usb \
     vibrator
