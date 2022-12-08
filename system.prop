@@ -97,6 +97,9 @@ ro.surface_flinger.max_virtual_display_dimension=4096
 # Time
 persist.timed.enable=true
 
+# Radio
+persist.rcs.supported=1
+
 # Recovery
 persist.sys.binary_xml=false
 
