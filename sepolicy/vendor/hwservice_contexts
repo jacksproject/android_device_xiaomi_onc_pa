@@ -1,1 +1,4 @@
 vendor.qti.hardware.slmadapter::ISlmAdapter                  u:object_r:hal_slmadapter_hwservice:s0
+
+# QSPM
+vendor.qti.qspmhal::IQspmhal                                                           u:object_r:hal_qspmhal_hwservice:s0

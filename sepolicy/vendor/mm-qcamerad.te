@@ -10,4 +10,3 @@ get_prop(mm-qcamerad, camera_prop)
 allow mm-qcamerad property_socket:sock_file { write };
 allow mm-qcamerad init:unix_stream_socket connectto;
 set_prop(mm-qcamerad, camera_prop)
-get_prop(mm-qcamerad, default_prop)

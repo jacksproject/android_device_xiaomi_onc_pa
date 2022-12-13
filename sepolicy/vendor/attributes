@@ -1,0 +1,3 @@
+attribute hal_qspmhal;
+attribute hal_qspmhal_client;
+attribute hal_qspmhal_server;

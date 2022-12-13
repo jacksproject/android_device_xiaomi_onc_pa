@@ -1,3 +1,5 @@
 # Camera
 type vendor_camera_prop, property_type;
 
+# fingerprint
+vendor_public_prop(vendor_fp_prop)

@@ -18,3 +18,10 @@ allow qti_init_shell {
 
 # LEDs
 allow init sysfs_leds:lnk_file read;
+
+# perf
+allow init sysfs_msm_perf:file rw_file_perms;
+
+# sysfs
+allow init sysfs_graphics:file r_file_perms;
+allow init hidl_base_hwservice:hwservice_manager add;
