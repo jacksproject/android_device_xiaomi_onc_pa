@@ -125,11 +125,14 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/mixer_paths_mtp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_mtp.xml
 
 # Bluetooth
+TARGET_USE_QTI_BT_STACK := false
+
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.btconfigstore@1.0.vendor:64 \
     vendor.qti.hardware.btconfigstore@2.0.vendor:64 \
     android.hardware.bluetooth@1.0 \
-    android.hardware.bluetooth@1.0.vendor
+    android.hardware.bluetooth@1.0.vendor \
+    vendor.qti.hardware.bluetooth_audio@2.0.vendor
 
 # Camera
 PRODUCT_PACKAGES += \
@@ -427,6 +430,7 @@ PRODUCT_COPY_FILES += \
 # device/qcom/common modules
 TARGET_COMMON_QTI_COMPONENTS := \
     av \
+    bt \
     gps \
     telephony \
     usb \
