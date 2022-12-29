@@ -40,7 +40,6 @@ public class BootCompletedReceiver extends BroadcastReceiver {
             if (DEBUG) Log.d(TAG, "Starting Doze service");
             DozeUtils.startService(context);
         }
-        new DiracUtils(context).onBootCompleted();
 
         FileUtils.setValue(TorchSettings.TORCH_1_BRIGHTNESS_PATH,
                 Settings.Secure.getInt(context.getContentResolver(),
@@ -55,5 +54,14 @@ public class BootCompletedReceiver extends BroadcastReceiver {
                 SoundControlSettings.PREF_MICROPHONE_GAIN, 0));
         FileUtils.setValue(SoundControlSettings.SPEAKER_GAIN_PATH, Settings.Secure.getInt(context.getContentResolver(),
                 SoundControlSettings.PREF_SPEAKER_GAIN, 0));
+
+        // Dirac
+        int millis = 1 * 60 * 1000;  // 1min
+        try {
+            Thread.sleep(millis);
+            new DiracUtils(context).onBootCompleted();
+        } catch( Exception e) {
+            e.printStackTrace();
+        }
     }
 }
