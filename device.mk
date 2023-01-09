@@ -20,6 +20,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_m.mk)
 # Apex
 PRODUCT_COMPRESSED_APEX := false
 
+$(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
+
 # Overlays
 PRODUCT_PACKAGES += \
     AOSPAMidoFrameworks \
