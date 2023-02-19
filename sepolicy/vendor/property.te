@@ -3,6 +3,3 @@ type vendor_camera_prop, property_type;
 
 # fingerprint
 vendor_public_prop(vendor_fp_prop)
-
-# Pasrmanager
-vendor_public_prop(vendor_pasr_prop);

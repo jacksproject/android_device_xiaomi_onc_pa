@@ -2,6 +2,3 @@ vendor.qti.hardware.slmadapter::ISlmAdapter                  u:object_r:hal_slma
 
 # QSPM
 vendor.qti.qspmhal::IQspmhal                                                           u:object_r:hal_qspmhal_hwservice:s0
-
-# PASR
-vendor.qti.memory.pasrmanager::IPasrManager                     u:object_r:hal_pasrmanager_memory_hwservice:s0
