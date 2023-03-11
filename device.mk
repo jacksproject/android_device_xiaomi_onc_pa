@@ -362,7 +362,6 @@ PRODUCT_PACKAGES += \
 
 # SoC
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
-    ro.soc.manufacturer=QTI \
     ro.soc.model=MSM8953
 
 # Remove packages
