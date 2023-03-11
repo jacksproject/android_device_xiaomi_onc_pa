@@ -227,9 +227,7 @@ PRODUCT_PACKAGES += \
 
 # IMS
 PRODUCT_PACKAGES += \
-    CarrierConfigOverlay \
-    ims-ext-common \
-    ims_ext_common.xml
+    CarrierConfigOverlay
 
 # Input
 PRODUCT_COPY_FILES += \
@@ -344,10 +342,6 @@ PRODUCT_PACKAGES += \
 
 # RIL
 PRODUCT_PACKAGES += \
-    extphonelib \
-    extphonelib.xml \
-    extphonelib-product \
-    extphonelib_product.xml \
     librmnetctl \
     libcnefeatureconfig \
     libxml2
