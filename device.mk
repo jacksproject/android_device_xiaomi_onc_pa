@@ -403,7 +403,6 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service-lazy \
     libcld80211 \
-    libwpa_client \
     hostapd \
     libqmiservices_shim \
     libwifi-hal-qcom \
