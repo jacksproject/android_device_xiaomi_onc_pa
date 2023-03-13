@@ -21,13 +21,16 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_m.mk)
 PRODUCT_COMPRESSED_APEX := false
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += \
-       $(LOCAL_PATH)/overlay \
-       $(LOCAL_PATH)/overlay-pa \
-       $(LOCAL_PATH)/configs/overlays/overlay-system
-
 PRODUCT_PACKAGES += \
-    AOSPAMidoFrameworks
+    AOSPAMidoFrameworks \
+    AOSPAMidoSettings \
+    AOSPAMidoSettingsProvider \
+    AOSPAMidoSystemUI \
+    AOSPAMidoTelephony \
+    MidoCarrierConfigOverlay \
+    MidoFrameworks \
+    TetheringOverlay \
+    WifiOverlay
 
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
@@ -36,10 +39,6 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 # Board
 TARGET_BOARD_PLATFORM := msm8953
 PRODUCT_USES_QCOM_HARDWARE := true
-
-# RRO (Runtime Resource Overlay)
-PRODUCT_ENFORCE_RRO_TARGETS := *
-PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += $(LOCAL_PATH)/overlay/packages/apps/CarrierConfig
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
@@ -225,10 +224,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.cryptfshw@1.0-service-qti.qsee
 
-# IMS
-PRODUCT_PACKAGES += \
-    CarrierConfigOverlay
-
 # Input
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/ft5435_ts.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/ft5435_ts.kl \
@@ -400,8 +395,6 @@ PRODUCT_PACKAGES += \
     hostapd \
     libqmiservices_shim \
     libwifi-hal-qcom \
-    TetheringConfigOverlay \
-    WifiOverlay \
     wpa_supplicant \
     wpa_supplicant.conf
 
