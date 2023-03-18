@@ -807,9 +807,6 @@ vendor/bin/lowi-server|16b04916e2e8672d63238c3753c52d70f2758b06
 vendor/bin/xtra-daemon|e06d564773772e4f341acad4bcd74c4eb0bf2863
 vendor/bin/xtwifi-client|9f64aa6f899b56fe58438b30e340730e1d47bcdb
 vendor/bin/xtwifi-inet-agent|f805841e5c8ca3b0af620486a64a37148daa0980
-vendor/etc/izat.conf|a795b79b68e3705c0334432dded0c0d246f47cb3
-vendor/etc/lowi.conf|a676234460033da29f845a645cc1faf4172efa26
-vendor/etc/sap.conf|b5ea86d9d9ee36dc13194474d343dae36f6fa032
 vendor/etc/xtwifi.conf|ac2189707c0016c31846ccec73e8857d7f566605
 vendor/lib64/libcdfw.so|36c7409b96cc2d523e65cd2753d7c8a1c234bc11
 vendor/lib64/libcdfw_remote_api.so|3b10c3c4c998e1b2bae10193ce4d1fa6d5a3f0bd
