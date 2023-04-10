@@ -138,6 +138,7 @@ ro.vendor.extension_library=libqti-perfd-client.so
 ro.vendor.qti.sys.fw.bservice_enable=true
 
 # Radio
+persist.sys.radio.force_lte_ca=true
 persist.vendor.radio.add_power_save=1
 persist.vendor.radio.hw_mbn_update=0
 rild.libpath=/vendor/lib64/libril-qc-qmi-1.so
