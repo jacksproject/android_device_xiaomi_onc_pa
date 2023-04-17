@@ -416,7 +416,7 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 
 # Wifi
 PRODUCT_PACKAGES += \
-    android.hardware.wifi@1.0-service-lazy \
+    android.hardware.wifi@1.0-service \
     libcld80211 \
     hostapd \
     libwifi-hal-qcom \
