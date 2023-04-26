@@ -365,10 +365,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.soc.model=MSM8953
 
-# Remove packages
-PRODUCT_PACKAGES += \
-    RemovePackages
-
 # Sensors
 PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-impl:64 \
