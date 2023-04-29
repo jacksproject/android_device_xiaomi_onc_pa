@@ -1,3 +1,6 @@
+# Audio
+persist.audio.dirac             u:object_r:dirac_prop:s0
+
 # Net
 persist.net.doxlat              u:object_r:vendor_xlat_prop:s0
 
