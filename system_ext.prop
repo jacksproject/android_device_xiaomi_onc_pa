@@ -5,3 +5,4 @@
 # DPM
 persist.vendor.dpm.feature=11
 persist.vendor.dpm.loglevel=0
+ro.control_privapp_permissions=log
