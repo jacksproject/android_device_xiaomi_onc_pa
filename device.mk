@@ -90,7 +90,6 @@ PRODUCT_PACKAGES += \
     android.hardware.audio@7.1-impl:32 \
     android.hardware.audio.effect@7.0-impl:32 \
     android.hardware.audio.service \
-    android.hardware.bluetooth.audio@2.0-impl:32 \
     audio.a2dp.default \
     audio.bluetooth.default \
     audio.primary.msm8953 \
@@ -124,16 +123,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/audio_platform_info_intcodec.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info_intcodec.xml \
     $(LOCAL_PATH)/configs/audio/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration.xml \
     $(LOCAL_PATH)/configs/audio/mixer_paths_mtp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_mtp.xml
-
-# Bluetooth
-TARGET_USE_QTI_BT_STACK := false
-
-PRODUCT_PACKAGES += \
-    vendor.qti.hardware.btconfigstore@1.0.vendor:64 \
-    vendor.qti.hardware.btconfigstore@2.0.vendor:64 \
-    android.hardware.bluetooth@1.0 \
-    android.hardware.bluetooth@1.0.vendor \
-    vendor.qti.hardware.bluetooth_audio@2.0.vendor
 
  # Boot animation
 TARGET_BOOTANIMATION_HALF_RES := true
