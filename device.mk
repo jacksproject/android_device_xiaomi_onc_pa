@@ -402,7 +402,7 @@ PRODUCT_PACKAGES += \
 
 # VNDK
 PRODUCT_PACKAGES += \
-    libstdc++.vendor
+    libstdc++_vendor
 
 # Paranoid doze
 PRODUCT_PACKAGES += \
