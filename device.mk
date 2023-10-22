@@ -414,7 +414,7 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 
 # Wifi
 PRODUCT_PACKAGES += \
-    android.hardware.wifi@1.0-service \
+    android.hardware.wifi-service \
     libcld80211 \
     hostapd \
     libwifi-hal-qcom \
