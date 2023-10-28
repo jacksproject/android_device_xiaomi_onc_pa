@@ -5,6 +5,7 @@
 //
 
 runtime_resource_overlay {
-    name: "AOSPAMidoTelephony",
+    name: "AOSPAOncSystemUI",
+    sdk_version: "current",
     vendor: true,
 }

@@ -5,10 +5,10 @@
 -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.settings.mido">
+    package="com.android.systemui.onc">
 
     <overlay
         android:isStatic="true"
         android:priority="800"
-        android:targetPackage="com.android.settings" />
+        android:targetPackage="com.android.systemui" />
 </manifest>
