@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aospa_mido.mk
+    $(LOCAL_DIR)/aospa_onc.mk
 
 COMMON_LUNCH_CHOICES := \
-    aospa_mido-user \
-    aospa_mido-userdebug \
-    aospa_mido-eng
+    aospa_onc-user \
+    aospa_onc-userdebug \
+    aospa_onc-eng
